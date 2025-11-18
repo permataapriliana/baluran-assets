@@ -1,0 +1,42 @@
+<?php
+return [
+    'welcome' => 'Selamat datang di Taman Nasional Baluran',
+    'home' => 'Beranda',
+    'news' => 'Berita',
+    'events' => 'Kegiatan',
+    'faq' => 'Tanya Jawab',
+    'about' => 'Tentang',
+    'login' => 'Masuk',
+    'language' => 'Bahasa',
+    'breaking news' => 'Berita Terbaru',
+    'next event' => 'Kegiatan Selanjutnya',
+    'selengkapnya' => 'Selengkapnya',
+    'belum ada berita terbaru' => 'Belum ada berita terbaru.',
+    'publikasi terbaru' => 'Publikasi Terbaru',
+    'lihat semua publikasi' => 'Lihat Semua Publikasi',
+    'belum ada publikasi terbaru' => 'Belum ada publikasi terbaru',
+    'event terbaru' => 'Event terbaru',
+    'lihat detail' => 'Lihat Detail',
+    'tidak ada event terbaru' => 'Tidak ada event terbaru.',
+    'galeri' => 'Galeri',
+    'belum ada gambar' => 'Belum ada gambar',
+    'daftar pertanyaan' => 'Daftar Pertanyaan',
+    'informasi tiket' => 'Informasi Tiket',
+    'Bagi pengunjung yang tidak memiliki tiket akan' => 'Bagi pengunjung yang tidak memiliki tiket akan',
+    '*DIDENDA 5X tiket yang berlaku*' => '*DIDENDA 5X tiket yang berlaku*',
+    'Peta & Akomodasi Wisata' => 'Peta & Akomodasi Wisata',
+    '🎥 Video Terbaru Taman Nasional Baluran' => '🎥 Video Terbaru Taman Nasional Baluran',
+    'Galeri Taman Nasional Baluran' => 'Galeri Taman Nasional Baluran',
+    'Belum ada data pada kategori ini.' => 'Belum ada data pada kategori ini.',
+    'Lokal' => 'Lokal',
+    'Internasional' => 'Internasional',
+    'Hari Kerja' => 'Hari Kerja',
+    'Hari Libur' => 'Hari Libur',
+    'Sepeda Motor' => 'Sepeda Motor',
+    'Mobil' => 'Mobil',
+    'Tiket' => 'Tiket',
+    
+    
+
+
+];
