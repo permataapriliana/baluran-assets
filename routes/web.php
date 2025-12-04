@@ -113,6 +113,7 @@ Route::middleware(['web', SetLocale::class])->group(function () {
     // FAQ
     Route::get('/faq', [FaqController::class, 'index'])->name('faq.index');
     Route::get('/faq/tentang', fn() => view('faq.partials.tentang'));
+    Route::get('/faq/tes', fn() => view('faq.partials.tes'));
     Route::get('/faq/lokasi', fn() => view('faq.partials.lokasi'));
     Route::get('/faq/objek', fn() => view('faq.partials.objek'));
     Route::get('/faq/penginapan', fn() => view('faq.partials.penginapan'));

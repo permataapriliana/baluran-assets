@@ -500,13 +500,13 @@
                     <a href="/" class="nav-link menu-link {{ Request::is('/') ? 'active-menu' : '' }}">@lang('messages.home')</a>
                     <li class="nav-link dropdown">
                         <a class="nav-link dropdown-toggle menu-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Publikasi
+                            @lang('messages.Publikasi')
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="/listberita">Berita</a></li>
-                            <li><a class="dropdown-item" href="/listevent">Events</a></li>
-                            <li><a class="dropdown-item" href="{{ route('galeri.index') }}">Galeri</a></li>
-                            <li><a class="dropdown-item" href="{{ route('galeri.index') }}">Pengumuman</a></li>
+                            <li><a class="dropdown-item" href="/listberita">@lang('messages.news')</a></li>
+                            <li><a class="dropdown-item" href="/listevent">@lang('messages.events')</a></li>
+                            <li><a class="dropdown-item" href="{{ route('galeri.index') }}">@lang('messages.galeri')</a></li>
+                            <li><a class="dropdown-item" href="{{ route('galeri.index') }}">@lang('messages.pengumuman')</a></li>
                         </ul>
                     </li>
                     <a href="/faq" class="nav-link menu-link {{ Request::is('faq') ? 'active-menu' : '' }}">@lang('messages.faq')</a>
@@ -549,10 +549,10 @@
                     
                     {{-- Caption/Overlay --}}
                     <div class="carousel-caption">
-                        <h1>Jelajahi Pesona Baluran</h1>
-                        <p>Africa Van Java Menanti Petualangan Tak Terlupakan Anda</p>
+                        <h1>@lang('messages.Jelajahi Pesona Baluran')</h1>
+                        <p>@lang('messages.Africa Van Java Menanti Petualangan Tak Terlupakan Anda')</p>
                         <a href="#booking-section" class="carousel-cta-btn">
-                            Mulai Petualangan <i class="fas fa-arrow-right ms-2"></i>
+                            @lang('messages.Mulai Petualangan')<i class="fas fa-arrow-right ms-2"></i>
                         </a>
                     </div>
                 </div>
@@ -562,7 +562,7 @@
         {{-- Kontrol Next/Prev --}}
         <button class="carousel-control-prev" type="button" data-bs-target="#mainSlider" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
+            <span class="visually-hidden">@lang('messages.previous')</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#mainSlider" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
@@ -575,8 +575,8 @@
         {{-- Section: Booking --}}
         <section id="booking-section" class="mb-6 pt-4">
             <div class="section-header">
-                <h2>Booking Online</h2>
-                <p>Pesan pengalaman seru Anda di Taman Nasional Baluran dengan mudah dan cepat.</p>
+                <h2>@lang('messages.Booking Online')</h2>
+                <p>@lang('messages.Pesan pengalaman seru Anda di Taman Nasional Baluran dengan mudah dan cepat.')</p>
             </div>
 
             <div class="row g-4 justify-content-center row-eq-height">
@@ -585,10 +585,10 @@
                     <div class="custom-card">
                         <img src="{{ asset('images/camping.png') }}" class="card-img-top" alt="Camping Ground">
                         <div class="card-body">
-                            <h5 class="card-title"><i class="fas fa-campground me-2"></i> Camping Ground</h5>
-                            <p class="card-text">Nikmati sensasi bermalam di tengah savana Africa van Java, rasakan keheningan malam dan suasana alam yang otentik. Tersedia fasilitas dasar untuk kenyamanan Anda.</p>
+                            <h5 class="card-title"><i class="fas fa-campground me-2"></i>@lang('messages.Camping Ground')</h5>
+                            <p class="card-text">@lang('messages.Nikmati sensasi bermalam di pinggir pantai, rasakan keheningan malam dan suasana alam yang otentik. Tersedia fasilitas dasar untuk kenyamanan Anda.')</p>
                             <div class="mt-auto card-footer text-center">
-                                <a href="https://bit.ly/BookingCamping" target="_blank" class="btn btn-primary w-100">Book Camping</a>
+                                <a href="https://bit.ly/BookingCamping" target="_blank" class="btn btn-primary w-100">@lang('messages.Book Now')</a>
                             </div>
                         </div>
                     </div>
@@ -599,10 +599,10 @@
                     <div class="custom-card">
                         <img src="{{ asset('images/pengamatan_satwa.png') }}" class="card-img-top" alt="Pengamatan Satwa">
                         <div class="card-body">
-                            <h5 class="card-title"><i class="fas fa-binoculars me-2"></i> Pengamatan Satwa</h5>
-                            <p class="card-text">Ikuti tur pengamatan satwa liar bersama pemandu Baluran. Kesempatan melihat Banteng, Rusa, Merak, dan berbagai jenis burung di habitat aslinya.</p>
+                            <h5 class="card-title"><i class="fas fa-binoculars me-2"></i>@lang('messages.Pengamatan Satwa')</h5>
+                            <p class="card-text">@lang('messages.Ikuti tur pengamatan satwa liar bersama pemandu Baluran. Kesempatan melihat Banteng, Rusa, Merak, dan berbagai jenis burung di habitat aslinya.')</p>
                             <div class="mt-auto card-footer text-center">
-                                <a href="https://bit.ly/BookingPengamatanSatwa" class="btn btn-primary w-100">Book Wildlife Tour</a>
+                                <a href="https://bit.ly/BookingPengamatanSatwa" class="btn btn-primary w-100">@lang('messages.Book Now')</a>
                             </div>
                         </div>
                     </div>
@@ -615,8 +615,8 @@
         {{-- Section: Berita Terbaru --}}
         <section class="mb-6 pt-4">
             <div class="section-header">
-                <h2>Berita Terbaru</h2>
-                <p>Ikuti perkembangan terbaru dan kisah menarik dari Taman Nasional Baluran.</p>
+                <h2>@lang('messages.breaking news')</h2>
+                <p>@lang('messages.Ikuti perkembangan terbaru dan kisah menarik dari Taman Nasional Baluran.')</p>
             </div>
             <div class="row g-4 row-eq-height">
                 @forelse ($latestNews as $news)
@@ -632,7 +632,7 @@
                                 <p class="card-text text-muted small"><i class="fas fa-calendar-alt me-1"></i> {{ $news->created_at->isoFormat('D MMMM YYYY') }}</p>
                                 <p class="card-text">{{ Str::limit(strip_tags($news->isi), 120) }}</p>
                                 <div class="mt-auto card-footer text-center">
-                                    <a href="{{ route('berita.show', $news->id) }}" class="btn btn-primary w-100">Baca Selengkapnya</a>
+                                    <a href="{{ route('berita.show', $news->id) }}" class="btn btn-primary w-100">@lang('messages.selengkapnya')</a>
                                 </div>
                             </div>
                         </div>
@@ -640,7 +640,7 @@
                 @empty
                     <div class="col-12">
                         <div class="alert alert-info text-center custom-card">
-                            <p class="mb-0">Belum ada berita terbaru saat ini.</p>
+                            <p class="mb-0">@lang('messages.belum ada berita terbaru')</p>
                         </div>
                     </div>
                 @endforelse
@@ -652,26 +652,26 @@
         {{-- Section: Publikasi dan Event --}}
         <section class="mb-6 pt-4">
             <div class="section-header">
-                <h2>Publikasi & Event</h2>
-                <p>Informasi terkini mengenai publikasi riset, kegiatan, dan event seru di Baluran.</p>
+                <h2>@lang('messages.Publikasi & Event')</h2>
+                <p>@lang('messages.Informasi terkini mengenai publikasi riset, kegiatan, dan event seru di Baluran.')</p>
             </div>
             <div class="row g-4 row-eq-height">
                 {{-- Publikasi Terbaru --}}
                 <div class="col-lg-6 col-md-12">
                     <div class="custom-card">
                         <div class="card-body">
-                            <h4 class="card-title mb-3"><i class="fas fa-book-open me-2"></i> Publikasi Terbaru</h4>
+                            <h4 class="card-title mb-3"><i class="fas fa-book-open me-2"></i>@lang('messages.publikasi terbaru')</h4>
                             @if(isset($latestPublication) && $latestPublication)
                                 <img src="{{ isset($latestPublication->image_path) ? asset('storage/' . $latestPublication->image_path) : 'https://via.placeholder.com/600x250?text=Publikasi+Image' }}" class="card-img-top mb-3" alt="Thumbnail Publikasi" style="height: 180px;">
                                 <h5 class="fw-bold">{{ $latestPublication->title }}</h5>
                                 <p class="text-muted small mb-2"><i class="fas fa-calendar-alt me-1"></i> {{ \Carbon\Carbon::parse($latestPublication->date)->isoFormat('D MMMM YYYY') }}</p>
                                 <p class="card-text flex-grow-1">{{ Str::limit(strip_tags($latestPublication->content), 100) }}</p>
                                 <div class="mt-auto card-footer text-center">
-                                    <a href="{{ url('/faq') }}#publikasi" class="btn btn-primary w-100">Lihat Semua Publikasi</a>
+                                    <a href="{{ url('/faq') }}#publikasi" class="btn btn-primary w-100">@lang('messages.lihat semua publikasi')</a>
                                 </div>
                             @else
                                 <div class="alert alert-info text-center flex-grow-1 d-flex align-items-center justify-content-center">
-                                    <p class="mb-0">Belum ada publikasi terbaru.</p>
+                                    <p class="mb-0">@lang('messages.belum ada publikasi terbaru')</p>
                                 </div>
                             @endif
                         </div>
@@ -682,18 +682,18 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="custom-card">
                         <div class="card-body">
-                            <h4 class="card-title mb-3"><i class="fas fa-calendar-check me-2"></i> Event Terbaru</h4>
+                            <h4 class="card-title mb-3"><i class="fas fa-calendar-check me-2"></i>@lang('messages.event terbaru')</h4>
                             @if(isset($event) && $event)
                                 <img src="{{ (isset($event->images) && $event->images->first()) ? asset('storage/' . $event->images->first()->image_path) : asset('images/event.jpg') }}" class="card-img-top mb-3" alt="Event Poster" style="height: 180px;">
                                 <h5 class="fw-bold">{{ $event->judul }}</h5>
                                 <p class="text-muted small mb-2"><i class="fas fa-calendar-day me-1"></i> {{ \Carbon\Carbon::parse($event->tanggal)->format('d M Y') }}</p>
                                 <p class="card-text flex-grow-1">{{ Str::limit(strip_tags($event->deskripsi), 100) }}</p>
                                 <div class="mt-auto card-footer text-center">
-                                    <a href="{{ route('event.show', $event->id) }}" class="btn btn-primary w-100">Lihat Detail Event</a>
+                                    <a href="{{ route('event.show', $event->id) }}" class="btn btn-primary w-100">@lang('messages.lihat detail')</a>
                                 </div>
                             @else
                                 <div class="alert alert-info text-center flex-grow-1 d-flex align-items-center justify-content-center">
-                                    <p class="mb-0">Tidak ada event terbaru.</p>
+                                    <p class="mb-0">@lang('messages.tidak ada event terbaru')</p>
                                 </div>
                             @endif
                         </div>
@@ -707,8 +707,8 @@
         {{-- Bagian Informasi Tambahan (Galeri, FAQ, Tiket, Peta) --}}
         <section class="info-section mb-6 pt-4">
             <div class="section-header">
-                <h2>Informasi Penting</h2>
-                <p>Temukan informasi lengkap mengenai galeri, pertanyaan umum, harga tiket, dan peta lokasi.</p>
+                <h2>@lang('messages.Informasi Penting')</h2>
+                <p>@lang('messages.Temukan informasi lengkap mengenai galeri, pertanyaan umum, harga tiket, dan peta lokasi.')</p>
             </div>
             
             <div class="row g-4"> 
@@ -719,7 +719,7 @@
                     {{-- Galeri Foto --}}
                     <div class="custom-card mb-4 flex-grow-1"> {{-- Tambahkan flex-grow-1 untuk mengisi ruang --}}
                         <div class="card-body d-flex flex-column"> {{-- Tambahkan d-flex flex-column --}}
-                            <h5 class="card-title mb-3"><i class="fas fa-images me-2"></i> Galeri Foto</h5>
+                            <h5 class="card-title mb-3"><i class="fas fa-images me-2"></i>@lang('messages.galeri')</h5>
                             @if (isset($galeris) && $galeris->count())
                                 {{-- Hapus ratio 16x9, ganti dengan flex-grow-1 dan tinggi minimal --}}
                                 <div id="carouselGaleri" class="carousel slide flex-grow-1 mb-3" data-bs-ride="carousel" data-bs-interval="3000" style="min-height: 200px;">
@@ -733,10 +733,10 @@
                                     </div>
                                 </div>
                             @else
-                                <div class="text-muted mb-3 text-center d-flex align-items-center justify-content-center flex-grow-1" style="border: 1px dashed #ccc; border-radius: 8px;">Tidak ada gambar.</div>
+                                <div class="text-muted mb-3 text-center d-flex align-items-center justify-content-center flex-grow-1" style="border: 1px dashed #ccc; border-radius: 8px;">@lang('messages.belum ada gambar')</div>
                             @endif
                             <div class="mt-auto card-footer text-center">
-                                <a href="{{ route('galeri.index') }}" class="btn btn-success w-100">Selengkapnya</a>
+                                <a href="{{ route('galeri.index') }}" class="btn btn-success w-100">@lang('messages.selengkapnya')</a>
                             </div>
                         </div>
                     </div>
@@ -744,11 +744,11 @@
                     {{-- Peta & Akomodasi --}}
                     <div class="custom-card flex-grow-1">
                         <div class="card-body d-flex flex-column">
-                            <h5 class="card-title mb-3"><i class="fas fa-map-marked-alt me-2"></i> Peta & Akomodasi Wisata</h5>
+                            <h5 class="card-title mb-3"><i class="fas fa-map-marked-alt me-2"></i>@lang('messages.Peta & Akomodasi Wisata')</h5>
                             {{-- Tinggi Peta Disesuaikan untuk mengisi ruang --}}
                             <div id="map-home" class="mb-3 flex-grow-1" style="min-height: 250px;"></div> 
                             <div class="mt-auto card-footer text-center">
-                                <a href="{{ route('peta.index') }}" class="btn btn-success w-100">Selengkapnya</a>
+                                <a href="{{ route('peta.index') }}" class="btn btn-success w-100">@lang('messages.selengkapnya')</a>
                             </div>
                         </div>
                     </div>
@@ -761,7 +761,7 @@
                     {{-- Daftar Pertanyaan (FAQ) --}}
                     <div class="custom-card mb-4">
                         <div class="card-body d-flex flex-column">
-                            <h5 class="card-title mb-3"><i class="fas fa-question-circle me-2"></i> Pertanyaan Umum</h5>
+                            <h5 class="card-title mb-3"><i class="fas fa-question-circle me-2"></i>@lang('messages.daftar pertanyaan')</h5>
                             <div class="accordion faq-accordion flex-grow-1" id="faqAccordion">
                                 @if(isset($faqs) && count($faqs) > 0)
                                     @foreach($faqs->take(3) as $index => $faq)
@@ -779,11 +779,11 @@
                                     </div>
                                     @endforeach
                                 @else
-                                    <div class="alert alert-info text-center flex-grow-1 d-flex align-items-center justify-content-center">Tidak ada FAQ.</div>
+                                    <div class="alert alert-info text-center flex-grow-1 d-flex align-items-center justify-content-center">@lang('messages.Tidak ada FAQ.')</div>
                                 @endif
                             </div>
                             <div class="card-footer text-center mt-3 p-0 border-0 bg-transparent">
-                                <a href="{{ route('faq.index') }}" class="btn btn-success w-100">Selengkapnya</a>
+                                <a href="{{ route('faq.index') }}" class="btn btn-success w-100">@lang('messages.selengkapnya')</a>
                             </div>
                         </div>
                     </div>
@@ -791,28 +791,28 @@
                     {{-- Informasi Tiket --}}
                     <div class="custom-card ticket-info flex-grow-1">
                         <div class="card-body d-flex flex-column">
-                            <h5 class="card-title mb-3"><i class="fas fa-money-bill-wave me-2"></i> Informasi Tiket</h5>
+                            <h5 class="card-title mb-3"><i class="fas fa-money-bill-wave me-2"></i>@lang('messages.informasi tiket')</h5>
                             <div class="flex-grow-1">
                                 <table class="table table-striped table-hover table-bordered text-center table-sm">
                                     <thead>
                                         <tr>
-                                            <th>Tiket</th>
-                                            <th>Hari Kerja</th>
-                                            <th>Hari Libur</th>
+                                            <th>@lang('messages.Tiket')</th>
+                                            <th>@lang('messages.Hari Kerja')</th>
+                                            <th>@lang('messages.Hari Libur')</th>
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr><td>Lokal</td><td>Rp. 21.000</td><td>Rp. 31.000</td></tr>
-                                        <tr><td>Internasional</td><td>Rp. 205.000</td><td>Rp. 205.000</td></tr>
-                                        <tr><td>Sepeda Motor</td><td>Rp. 5.000</td><td>Rp. 5.000</td></tr>
-                                        <tr><td>Mobil</td><td>Rp. 10.000</td><td>Rp. 10.000</td></tr>
+                                        <tr><td>@lang('messages.Lokal')</td><td>Rp. 21.000</td><td>Rp. 31.000</td></tr>
+                                        <tr><td>@lang('messages.Internasional')</td><td>Rp. 205.000</td><td>Rp. 205.000</td></tr>
+                                        <tr><td>@lang('messages.Sepeda Motor')</td><td>Rp. 5.000</td><td>Rp. 5.000</td></tr>
+                                        <tr><td>@lang('messages.Mobil')</td><td>Rp. 10.000</td><td>Rp. 10.000</td></tr>
                                     </tbody>
                                 </table>
-                                <p class="text-danger text-center small"><strong>Bagi pengunjung yang tidak memiliki tiket akan</strong></p>
-                                <p class="text-danger text-center small mb-3"><strong>*DIDENDA 5X tiket yang berlaku*</strong></p>
+                                <p class="text-danger text-center small"><strong>@lang('messages.Bagi pengunjung yang tidak memiliki tiket akan')</strong></p>
+                                <p class="text-danger text-center small mb-3"><strong>@lang('messages.*DIDENDA 5X tiket yang berlaku*')</strong></p>
                             </div>
                             <div class="mt-auto card-footer text-center">
-                                <a href="/tiket" class="btn btn-success w-100">Selengkapnya</a>
+                                <a href="/tiket" class="btn btn-success w-100">@lang('messages.selengkapnya')</a>
                             </div>
                         </div>
                     </div>
@@ -825,8 +825,8 @@
         {{-- Section Video Terbaru --}}
         <section class="video-section mb-6 pt-4">
             <div class="section-header">
-                <h2>Video Terbaru</h2>
-                <p>Saksikan keindahan dan kegiatan di Taman Nasional Baluran melalui video kami.</p>
+                <h2>@lang('messages.🎥 Video Terbaru Taman Nasional Baluran')</h2>
+                <p>@lang('messages.Saksikan keindahan dan kegiatan di Taman Nasional Baluran melalui video kami.')</p>
             </div>
             <div class="card">
                 <div class="card-body">
@@ -854,7 +854,7 @@
                     </div>
                     <div class="text-center mt-5">
                         <a href="https://www.youtube.com/@tnbaluran" target="_blank" class="btn btn-outline-success">
-                            Lihat Semua Video di YouTube <i class="fab fa-youtube ms-2"></i>
+                            @lang('messages.Lihat Semua Video di YouTube') <i class="fab fa-youtube ms-2"></i>
                         </a>
                     </div>
                 </div>

@@ -1,9 +1,12 @@
 <?php
 return [
     'welcome' => 'Selamat datang di Taman Nasional Baluran',
+    'Balai Taman Nasional Baluran' => 'Balai Taman Nasional Baluran',
     'home' => 'Beranda',
     'news' => 'Berita',
-    'events' => 'Kegiatan',
+    'events' => 'Acara',
+    'pengumuman' => 'Pengumuman',
+    'Publikasi' => 'Publikasi',
     'faq' => 'Tanya Jawab',
     'about' => 'Tentang',
     'login' => 'Masuk',
@@ -21,6 +24,7 @@ return [
     'galeri' => 'Galeri',
     'belum ada gambar' => 'Belum ada gambar',
     'daftar pertanyaan' => 'Daftar Pertanyaan',
+    'Tidak ada FAQ' => 'Tidak ada FAQ.',
     'informasi tiket' => 'Informasi Tiket',
     'Bagi pengunjung yang tidak memiliki tiket akan' => 'Bagi pengunjung yang tidak memiliki tiket akan',
     '*DIDENDA 5X tiket yang berlaku*' => '*DIDENDA 5X tiket yang berlaku*',
@@ -36,6 +40,57 @@ return [
     'Mobil' => 'Mobil',
     'Tiket' => 'Tiket',
     
+
+    'Jelajahi Pesona Baluran' => 'Jelajahi Pesona Baluran',
+    'Africa Van Java Menanti Petualangan Tak Terlupakan Anda' => 'Africa Van Java Menanti Petualangan Tak Terlupakan Anda',
+    'Mulai Petualangan' => 'Mulai Petualangan ',
+    'previous' => 'Sebelumnya',
+    'Booking Online' => 'Booking Online',
+    'Pesan pengalaman seru Anda di Taman Nasional Baluran dengan mudah dan cepat.' => 'Pesan pengalaman seru Anda di Taman Nasional Baluran dengan mudah dan cepat.',
+    'Camping Ground' => 'Berkemah',
+    'Nikmati sensasi bermalam di pinggir pantai, rasakan keheningan malam dan suasana alam yang otentik. Tersedia fasilitas dasar untuk kenyamanan Anda.' => 'Nikmati sensasi bermalam di pinggir pantai, rasakan keheningan malam dan suasana alam yang otentik. Tersedia fasilitas dasar untuk kenyamanan Anda.',
+    'Book Now' => 'Pesan Sekarang',
+    'Pengamatan Satwa' => 'Pengamatan Satwa',
+    'Ikuti tur pengamatan satwa liar bersama pemandu Baluran. Kesempatan melihat Banteng, Rusa, Merak, dan berbagai jenis burung di habitat aslinya.' => 'Ikuti tur pengamatan satwa liar bersama pemandu Baluran. Kesempatan melihat Banteng, Rusa, Merak, dan berbagai jenis burung di habitat aslinya.',
+    'Ikuti perkembangan terbaru dan kisah menarik dari Taman Nasional Baluran.' => 'Ikuti perkembangan terbaru dan kisah menarik dari Taman Nasional Baluran.',
+    'Publikasi & Event' => 'Publikasi & Acara',
+    'Informasi terkini mengenai publikasi riset, kegiatan, dan event seru di Baluran.' => 'Informasi terkini mengenai publikasi riset, kegiatan, dan acara seru di Baluran.',
+    'Informasi Penting' => 'Informasi Penting',
+    'Temukan informasi lengkap mengenai galeri, pertanyaan umum, harga tiket, dan peta lokasi.' => 'Temukan informasi lengkap mengenai galeri, pertanyaan umum, harga tiket, dan peta lokasi.',
+    'Saksikan keindahan dan kegiatan di Taman Nasional Baluran melalui video kami.' => 'Saksikan keindahan dan kegiatan di Taman Nasional Baluran melalui video kami.',
+    'Lihat Semua Video di YouTube' => 'Lihat Semua Video di YouTube',
+    'Taman Nasional adalah kawasan pelestarian alam yang dikelola secara aktif dan dimanfaatkan
+                untuk tujuan penelitian, ilmu pengetahuan, pendidikan, menunjang budidaya, pariwisata, dan rekreasi.' => 'Taman Nasional adalah kawasan pelestarian alam yang dikelola secara aktif dan dimanfaatkan
+                untuk tujuan penelitian, ilmu pengetahuan, pendidikan, menunjang budidaya, pariwisata, dan rekreasi.',
+    'Lokasi dan Kontak' => 'Lokasi dan Kontak',
+    
+
+    'Pertanyaan Umum (FAQ)' => 'Pertanyaan Umum (FAQ)',
+    'Temukan jawaban untuk pertanyaan yang paling sering diajukan seputar kunjungan Anda ke Taman Nasional Baluran.' => 'Temukan jawaban untuk pertanyaan yang paling sering diajukan seputar kunjungan Anda ke Taman Nasional Baluran.',
+    'Apa itu Taman Nasional Baluran?' => 'Apa itu Taman Nasional Baluran?',
+    'Taman Nasional Baluran adalah kawasan konservasi alam di ujung timur Pulau Jawa yang dikenal sebagai "Africa van Java". Kawasan ini memiliki ekosistem unik berupa padang savana yang luas, hutan mangrove, dan pantai indah. Taman ini menjadi habitat bagi berbagai satwa liar seperti banteng, rusa, kerbau liar, dan berbagai jenis burung. Selain itu, Baluran juga menawarkan pengalaman wisata alam' => 'Taman Nasional Baluran adalah kawasan konservasi alam di ujung timur Pulau Jawa yang dikenal sebagai "Africa van Java". Kawasan ini memiliki ekosistem unik berupa padang savana yang luas, hutan mangrove, dan pantai indah. Taman ini menjadi habitat bagi berbagai satwa liar seperti banteng, rusa, kerbau liar, dan berbagai jenis burung. Selain itu, Baluran juga menawarkan pengalaman wisata alam',
+    'Di mana lokasi Taman Nasional Baluran?' => 'Di mana lokasi Taman Nasional Baluran?',
+    'Taman Nasional Baluran terletak di Kecamatan Banyuputih, Kabupaten Situbondo, Jawa Timur. Lokasinya strategis di jalur utama Situbondo-Banyuwangi. Dari Situbondo, jaraknya sekitar 60 km ke arah timur, sementara dari Banyuwangi sekitar 70 km ke arah barat. Akses menuju taman ini dapat ditempuh dengan kendaraan pribadi atau transportasi umum yang melayani rute tersebut.' => 'Taman Nasional Baluran terletak di Kecamatan Banyuputih, Kabupaten Situbondo, Jawa Timur. Lokasinya strategis di jalur utama Situbondo-Banyuwangi. Dari Situbondo, jaraknya sekitar 60 km ke arah timur, sementara dari Banyuwangi sekitar 70 km ke arah barat. Akses menuju taman ini dapat ditempuh dengan kendaraan pribadi atau transportasi umum yang melayani rute tersebut.',
+    'Taman Nasional Baluran umumnya buka setiap hari mulai pukul 07.30 WIB hingga 16.00 WIB. Jam operasional dapat berubah sewaktu-waktu tergantung kebijakan pengelola atau kondisi cuaca. Disarankan untuk memeriksa informasi terbaru sebelum berkunjung.' => 'Taman Nasional Baluran umumnya buka setiap hari mulai pukul 07.30 WIB hingga 16.00 WIB. Jam operasional dapat berubah sewaktu-waktu tergantung kebijakan pengelola atau kondisi cuaca. Disarankan untuk memeriksa informasi terbaru sebelum berkunjung.',
+    'Destinasi wisata apa saja yang ada di dalam kawasan Baluran?' => 'Destinasi wisata apa saja yang ada di dalam kawasan Baluran?',
+    'Beberapa destinasi populer di Baluran antara lain:' => 'Beberapa destinasi populer di Baluran antara lain:',
+    '**Savana Bekol:** Padang savana yang luas tempat satwa liar berkumpul.' => '**Savana Bekol:** Padang savana yang luas tempat satwa liar berkumpul.',
+    '**Pantai Bama:** Pantai pasir putih yang ideal untuk bersantai dan snorkeling.' => '**Pantai Bama:** Pantai pasir putih yang ideal untuk bersantai dan snorkeling.',
+    '**Menara Pandang:** Tempat terbaik untuk melihat panorama savana dari ketinggian. '=> '**Menara Pandang:** Tempat terbaik untuk melihat panorama savana dari ketinggian.',
+    '**Hutan Mangrove:** Kawasan yang kaya akan ekosistem bakau.' => '**Hutan Mangrove:** Kawasan yang kaya akan ekosistem bakau.',
+    'Jenis kendaraan apa yang diperbolehkan masuk?' => 'Jenis kendaraan apa yang diperbolehkan masuk?',
+    'Kendaraan roda dua dan roda empat pribadi diizinkan masuk ke kawasan utama. Namun, untuk menjelajahi area savana dan rute tertentu, disarankan menggunakan kendaraan sewaan seperti **trooper** yang disediakan oleh pengelola untuk keamanan dan kenyamanan.' => 'Kendaraan roda dua dan roda empat pribadi diizinkan masuk ke kawasan utama. Namun, untuk menjelajahi area savana dan rute tertentu, disarankan menggunakan kendaraan sewaan seperti **trooper** yang disediakan oleh pengelola untuk keamanan dan kenyamanan.',
+    'Satwa apa saja yang dapat ditemui di Baluran?' => 'Satwa apa saja yang dapat ditemui di Baluran?',
+    'Baluran adalah rumah bagi berbagai satwa liar, termasuk rusa timor, banteng jawa, kerbau liar, ajak (anjing hutan), dan burung merak hijau. Anda bisa menjumpai mereka saat berkunjung ke area savana. Selain itu, taman ini juga menjadi habitat bagi berbagai jenis burung migran dan endemik yang menarik bagi para pengamat burung.' => 'Baluran adalah rumah bagi berbagai satwa liar, termasuk rusa timor, banteng jawa, kerbau liar, ajak (anjing hutan), dan burung merak hijau. Anda bisa menjumpai mereka saat berkunjung ke area savana. Selain itu, taman ini juga menjadi habitat bagi berbagai jenis burung migran dan endemik yang menarik bagi para pengamat burung.',
+    'Bagaimana tata cara berkunjung ke Taman Nasional Baluran?' => 'Bagaimana tata cara berkunjung ke Taman Nasional Baluran?',
+    'Berikut langkah-langkah umum untuk berkunjung:' => 'Berikut langkah-langkah umum untuk berkunjung:',
+    'Lakukan pendaftaran dan bayar tiket masuk di pintu gerbang.' => 'Lakukan pendaftaran dan bayar tiket masuk di pintu gerbang.',
+    'Ikuti semua petunjuk dan peraturan yang berlaku dari petugas.' => 'Ikuti semua petunjuk dan peraturan yang berlaku dari petugas.',
+    'Selalu jaga kebersihan dan tidak merusak alam.' => 'Selalu jaga kebersihan dan tidak merusak alam.',
+    'Dilarang memberi makan satwa liar demi menjaga perilaku alami mereka.' => 'Dilarang memberi makan satwa liar demi menjaga perilaku alami mereka.',
+    'Kapan jam operasional Taman Nasional Baluran?' => 'Kapan jam operasional Taman Nasional Baluran?',
+    
+
     
 
 

@@ -252,15 +252,24 @@
     {{-- Burger menu button untuk mobile --}}
     <div class="collapse navbar-collapse justify-content-between" id="navbarBaluran">
         {{-- Grup menu tengah --}}
-        <div class="mx-auto my-2 my-lg-0">
-            <div class="rounded-pill bg-white px-4 py-1 d-flex flex-wrap justify-content-center gap-3">
-                <a href="/" class="nav-link menu-link {{ Request::is('/') ? 'active-menu' : '' }}">@lang('messages.home')</a>
-                <a href="/listberita" class="nav-link menu-link {{ Request::is('listberita') || Request::is('berita*') ? 'active-menu' : '' }}">@lang('messages.news')</a>
-                <a href="/listevent" class="nav-link menu-link {{ Request::is('listevent*') || Request::routeIs('event.show') ? 'active-menu' : '' }}">@lang('messages.events')</a>
-                <a href="/faq" class="nav-link menu-link {{ Request::is('faq') ? 'active-menu' : '' }}">@lang('messages.faq')</a>
-                <a href="/about" class="nav-link menu-link {{ Request::is('about') ? 'active-menu' : '' }}">@lang('messages.about')</a>
+            <div class="mx-auto my-2 my-lg-0">
+                <div class="rounded-pill bg-white px-4 py-1 d-flex flex-wrap justify-content-center gap-3">
+                    <a href="/" class="nav-link menu-link {{ Request::is('/') ? 'active-menu' : '' }}">@lang('messages.home')</a>
+                    <li class="nav-link dropdown">
+                        <a class="nav-link dropdown-toggle menu-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            @lang('messages.Publikasi')
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/listberita">@lang('messages.news')</a></li>
+                            <li><a class="dropdown-item" href="/listevent">@lang('messages.events')</a></li>
+                            <li><a class="dropdown-item" href="{{ route('galeri.index') }}">@lang('messages.galeri')</a></li>
+                            <li><a class="dropdown-item" href="{{ route('galeri.index') }}">@lang('messages.pengumuman')</a></li>
+                        </ul>
+                    </li>
+                    <a href="/faq" class="nav-link menu-link {{ Request::is('faq') ? 'active-menu' : '' }}">@lang('messages.faq')</a>
+                    <a href="/about" class="nav-link menu-link {{ Request::is('about') ? 'active-menu' : '' }}">@lang('messages.about')</a>
+                </div>
             </div>
-        </div>
         {{-- Grup kanan --}}
         <ul class="navbar-nav ms-lg-3 text-center">
             <li class="nav-item dropdown">
@@ -284,7 +293,7 @@
     <aside class="sidebar" id="faqSidebar"> 
         <h2>Daftar Isi</h2>
         <ul>
-            <li><a href="/faq/tentang" class="active">Tentang Baluran</a></li>
+            <li><a href="/faq/tes" class="active">Tentang Baluran</a></li>
             <li><a href="/faq/lokasi">Lokasi & Cara Akses</a></li>
             <li><a href="/faq/objek">Objek Wisata & Satwa Liar</a></li>
             <li><a href="/faq/penginapan">Penginapan & Layanan Pendukung</a></li>

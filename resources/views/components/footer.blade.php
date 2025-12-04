@@ -96,19 +96,19 @@
 <footer class="footer">
     <div class="footer-content">
         <div class="footer-section">
-            <h3>Balai Taman Nasional Baluran</h3>
+            <h3>@lang('messages.Balai Taman Nasional Baluran')</h3>
             <p>
-                Taman Nasional adalah kawasan pelestarian alam yang dikelola secara aktif dan dimanfaatkan
-                untuk tujuan penelitian, ilmu pengetahuan, pendidikan, menunjang budidaya, pariwisata, dan rekreasi.
+                @lang('messages.Taman Nasional adalah kawasan pelestarian alam yang dikelola secara aktif dan dimanfaatkan
+                untuk tujuan penelitian, ilmu pengetahuan, pendidikan, menunjang budidaya, pariwisata, dan rekreasi.')
             </p>
         </div>
 
         <div class="footer-section">
-            <h3>Lokasi dan Kontak</h3>
+            <h3>@lang('messages.Lokasi dan Kontak')</h3>
             <ul>
                 <li>Jl. Raya Banyuwangi - Situbondo Km. 35, Wonorejo, Situbondo, Jawa Timur</li>
                 <li><img src="{{ asset('images/email.png') }}" alt="Email"> balurannationalpark@gmail.com</li>
-                <li><img src="{{ asset('images/facebook.png') }}" alt="Facebook"> Taman Nasional Baluran</li>
+                <li><img src="{{ asset('images/facebook.png') }}" alt="Tiktok"> @tamannasionalbaluran</li>
                 <li><img src="{{ asset('images/instagram.png') }}" alt="Instagram"> @btn_baluran</li>
             </ul>
         </div>

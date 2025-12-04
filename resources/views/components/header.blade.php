@@ -90,11 +90,13 @@
                     <a href="/" class="nav-link menu-link {{ Request::is('/') ? 'active-menu' : '' }}">@lang('messages.home')</a>
                     <li class="nav-link dropdown">
                         <a class="nav-link dropdown-toggle menu-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Publikasi
+                            @lang('messages.Publikasi')
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="/listberita">Berita</a></li>
-                            <li><a class="dropdown-item" href="/listevent">Events</a></li>
+                            <li><a class="dropdown-item" href="/listberita">@lang('messages.news')</a></li>
+                            <li><a class="dropdown-item" href="/listevent">@lang('messages.events')</a></li>
+                            <li><a class="dropdown-item" href="{{ route('galeri.index') }}">@lang('messages.galeri')</a></li>
+                            <li><a class="dropdown-item" href="{{ route('galeri.index') }}">@lang('messages.pengumuman')</a></li>
                         </ul>
                     </li>
                     <a href="/faq" class="nav-link menu-link {{ Request::is('faq') ? 'active-menu' : '' }}">@lang('messages.faq')</a>
